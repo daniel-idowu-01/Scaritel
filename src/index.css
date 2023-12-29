@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header-padding {
+    padding-top: 24px;
+    padding-right: 0px
+    ;
+    padding-bottom: 24px;
+    padding-left: 0px;
+}
+.header-border {
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-left: 0px;
+
+}
+.c-padding {
+    padding-top: 0px;
+    padding-right: 32px;
+    padding-bottom: 0px;
+    padding-left: 32px;
+}
+.btn-padding {
+    padding-top: 16px;
+    padding-right: 28px;
+    padding-bottom: 16px;
+    padding-left: 28px;
+}
