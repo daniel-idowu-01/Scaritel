@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function DesktopNav () {
     return (
-        <div className="w-[1440px] h-[108px] header-padding header-border shadow-lg z-high z-10 bg-[#ffffff] top-[-3175px] left-[6352px] hidden md:flex">
+        <div className="w-full h-[108px] header-padding header-border shadow-lg z-high z-10 bg-[#ffffff] top-[-3175px] left-[6352px] hidden md:flex">
            <div className="flex items-center w-[1280px] h-[60px] justify-between c-padding">
                 <div className="w-[142.7px] h-[48px] gap-[120px]">
                   <Link to = "/home">
