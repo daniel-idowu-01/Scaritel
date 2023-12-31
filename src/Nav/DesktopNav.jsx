@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import logo from "../assests/png/Frame 7.png";
 import { Link } from "react-router-dom";
-
+import NavBarContext from "../context/NavBarContext";
 
 function DesktopNav() {
+
+  const { memoizedIsFixed } = useContext(NavBarContext)
+
     return (
-        <div className="fixed w-full h-[108px] header-padding header-border shadow-lg z-10 bg-white hidden md:flex">
-           <div className="flex items-center w-full h-[60px] justify-between c-padding">
+        <div className={`${memoizedIsFixed ? 'sticky' : 'fixed'} w-full h-[108px] header-padding header-border shadow-lg z-10 bg-white hidden md:flex transition-all`}>
+           <div className="flex items-center w-full h-[60px] justify-between c-padding transition-all">
                 <div className="w-[142.7px] h-[48px] gap-[120px]">
                   <Link to = "/home">
                     <img src={logo} alt="logo" width={logo.width} height={logo.height}/>
