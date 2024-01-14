@@ -33,11 +33,21 @@
     padding-bottom: 16px;
     padding-left: 28px;
 }
-/* .sticky {
-    position: sticky;
-    top: 0;
+.about-padding {
+    padding-top: 96px;
+    padding-right: 0px;
+    padding-bottom: 96px;
+    padding-left: 0px;
 }
-.fixed {
-    position: fixed;
-    top: 0;
-} */
+.abt-padding{
+    padding-top: 0px;
+    padding-right: 32px;
+    padding-bottom: 0px;
+    padding-left: 32px;
+}
+.bt-padding{
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+}
