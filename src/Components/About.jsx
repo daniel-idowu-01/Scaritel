@@ -24,7 +24,7 @@ function About () {
                                 </p>
                                 <button className="uppercase h-[48px] w-[130px] gap-[12px] border-[1px] rounded-[8px] bt-padding font-semibold text-[16px] leading-[24px] text-[#344054]">Let's talk</button>
                             </div>
-                            <img src={hand} alt="hand" />
+                            <img src={hand} alt="hand" height={hand.height} width={hand.width} />
                         </div>
                     </section>
             </div>
