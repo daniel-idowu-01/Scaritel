@@ -5,10 +5,10 @@ import NavBarContext from "../context/NavBarContext";
 
 function DesktopNav() {
 
-  const { memoizedIsFixed } = useContext(NavBarContext)
+  const { isFixed } = useContext(NavBarContext)
 
     return (
-        <div className={`${memoizedIsFixed ? 'sticky' : 'fixed'} w-full h-[108px] header-padding header-border shadow-lg z-10 bg-white hidden md:flex transition-all`}>
+        <div className={`${isFixed ? 'sticky' : 'fixed'} w-full h-[108px] header-padding header-border shadow-lg z-10 bg-white hidden md:flex top 0.3s ease-in-out`}>
            <div className="flex items-center w-full h-[60px] justify-between c-padding transition-all">
                 <div className="w-[142.7px] h-[48px] gap-[120px]">
                   <Link to = "/">

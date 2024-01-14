@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import img1 from "../assests/png/Credit card mockup.png";
 import HeaderImg from '../assests/png/Container.png'
 import TechImg from '../assests/png/Image.png'
@@ -20,12 +20,9 @@ import LeftArrow from '../assests/logos/left_arrow.png'
 import RightArrow from '../assests/logos/right_arrow.png'
 import { FaStar } from 'react-icons/fa'
 import Footer from "./Footer";
-import NavBarContext from "../context/NavBarContext";
 
 
 function Home() {
-
-   const { targetRef } = useContext(NavBarContext)
    
    const skills = [
       {
@@ -80,7 +77,6 @@ function Home() {
 
           {/* sponsors */}
           <section
-             ref={targetRef}
              className="relative grid grid-cols-2 md:grid-cols-6 gap-5 md:gap-0 place-items-center justify-between mt-10 md:mt-44 mb-20 bg-[#1D2939] text-white p-7"
           >
                <div className="flex items-center gap-2">
