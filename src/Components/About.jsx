@@ -1,6 +1,6 @@
 import React from "react";
 import hand from "../assests/png/hand.png";
-
+import Discovery from "./About Components/Discovery";
 
 function About () {
     return (
@@ -27,6 +27,7 @@ function About () {
                             <img src={hand} alt="hand" height={hand.height} width={hand.width} />
                         </div>
                     </section>
+                    <Discovery />
             </div>
         </div>
     )
