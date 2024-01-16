@@ -1,6 +1,7 @@
 import React from "react";
-import twitter from "../../assests/png/twitter.png";
 import linkedln from "../../assests/png/linkedln.png";
+// import { MdOutlineMailOutline } from "react-icons/md";
+import { CiMail } from "react-icons/ci";
 import web from "../../assests/png/browser.png";
 import arrow from "../../assests/png/arrow.png";
 
@@ -11,9 +12,7 @@ const teams = [
         name: "Sam Ladipo",
         title: "Founder & CEO",
         info: "Former co-founder of Opendoor. Early staff at Spotiyf and Clearbit.",
-        twitter: twitter,
-        linkedln: linkedln,
-        web: web
+        linkedln: linkedln
             
     },
     {
@@ -22,9 +21,7 @@ const teams = [
         name: "Joseph Emmanuel",
         title: "Lead Designer",
         info: "Lead engineering teams at Figma, Pitch and Protocol Labs.",
-        twitter: twitter,
-        linkedln: linkedln,
-        web: web
+        linkedln: linkedln
             
     },{
         id: 3,
@@ -32,7 +29,6 @@ const teams = [
         name: "Daniel Aikhomogbe",
         title: "Lead Marketimg Manager",
         info: "Lead engineering teams at Figma, Pitch and Protocol Labs.",
-        twitter: twitter,
         linkedln: linkedln,
         web: web
             
@@ -43,19 +39,15 @@ const teams = [
         name: "Ezekiel",
         title: "Frontend Engineer",
         info: "Lead engineering teams at Figma, Pitch and Protocol Labs.",
-        twitter: twitter,
-        linkedln: linkedln,
-        web: web
-            
+        linkedln: linkedln
+        
     },{
         id: 1,
         img: "",
         name: "Ebenezer Noble",
         title: "Frontend Engineer",
         info: "Intern at Automagic Nigeria. Former frontend engineer at CodeClanNigeria.",
-        twitter: twitter,
-        linkedln: linkedln,
-        web: web
+        linkedln: linkedln
             
     },{
         id: 1,
@@ -63,9 +55,7 @@ const teams = [
         name: "Sam Ladipo",
         title: "Founder & CEO",
         info: "Former co-founder of Opendoor. Early staff at Spotiyf and Clearbit.",
-        twitter: twitter,
-        linkedln: linkedln,
-        web: web
+        linkedln: linkedln
             
     }
 ]
@@ -79,7 +69,7 @@ function Team () {
             </div>
                <section className="grid grid-cols-3 gap-10">
                 {teams.map((team) => {
-                        const {id, name, title, info, twitter, linkedln, web} = team;
+                        const {id, name, title, info, linkedln} = team;
                         return (
                             <div className="h-[480px] w-[384px] bg-[#000000] relative " key={id}>
                                 <div className="w-[336px] h-[232px] absolute top-[47%] left-[6%] px-5 py-6 bg-white bg-opacity-30 border border-white border-opacity-50 backdrop-blur-xl flex-col justify-start items-start gap-10 inline-flex">
@@ -96,9 +86,8 @@ function Team () {
                                             </div>
                                         </div>
                                         <div className="self-stretch justify-start items-center gap-5 inline-flex cursor-pointer">
-                                           <img src={twitter} alt="twitter" />
                                            <img src={linkedln} alt="linkedln" />
-                                           <img src={web} alt="web" />
+                                           <CiMail className="h-6 w-6 text-white"/>
                                         </div>
                                 </div>
                             </div>
