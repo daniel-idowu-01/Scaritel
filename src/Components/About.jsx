@@ -2,6 +2,10 @@ import React from "react";
 import hand from "../assests/png/hand.png";
 import Discovery from "./About Components/Discovery";
 
+import Testimonial from "./About Components/Testimonial";
+import Team from "./About Components/Team";
+import Footer from "../Components/Footer";
+
 function About () {
     return (
         <div className="inter relative top-[80px] h-[348px]" >
@@ -28,6 +32,9 @@ function About () {
                         </div>
                     </section>
                     <Discovery />
+                    <Testimonial />
+                    <Team />
+                    <Footer />
             </div>
         </div>
     )

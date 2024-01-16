@@ -51,3 +51,9 @@
     padding-bottom: 12px;
     padding-left: 20px;
 }
+.isActive {
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+    background: #fff;
+  }

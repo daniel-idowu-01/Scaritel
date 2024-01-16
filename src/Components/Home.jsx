@@ -1,4 +1,6 @@
-import React from "react";
+import React 
+
+from "react";
 import img1 from "../assests/png/Credit card mockup.png";
 import HeaderImg from '../assests/png/Container.png'
 import TechImg from '../assests/png/Image.png'
