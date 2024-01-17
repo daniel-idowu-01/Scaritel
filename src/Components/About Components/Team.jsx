@@ -1,8 +1,6 @@
 import React from "react";
 import linkedln from "../../assests/png/linkedln.png";
-// import { MdOutlineMailOutline } from "react-icons/md";
 import { CiMail } from "react-icons/ci";
-import web from "../../assests/png/browser.png";
 import arrow from "../../assests/png/arrow.png";
 
 const teams = [
@@ -29,8 +27,7 @@ const teams = [
         name: "Daniel Aikhomogbe",
         title: "Lead Marketimg Manager",
         info: "Lead engineering teams at Figma, Pitch and Protocol Labs.",
-        linkedln: linkedln,
-        web: web
+        linkedln: linkedln
             
     },
     {

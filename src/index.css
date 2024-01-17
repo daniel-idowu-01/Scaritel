@@ -57,3 +57,14 @@
     border-radius: 6px;
     background: #fff;
   }
+
+.services-padding {
+    padding: 96px 80px 96px 80px;
+}
+.service-padding {
+    padding: 0px 0px 0px 16px;
+}
+
+.freq-padding {
+    padding: 46px 0px 96px 0px;
+}

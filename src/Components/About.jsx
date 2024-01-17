@@ -26,6 +26,7 @@ function About () {
                                 <p className="h-[308px] w-[640px] font-normal text-[18px] leading=[28px] text-[#475467]">At Scaritel, we are proud to have a group of highly qualified experts with a wide range of market expertise from around the world. We have experience in many different fields, such as digital marketing, artificial intelligence, software engineering, product design and development, and more. <br/> <br/>
                                 We offer creative solutions to a broad spectrum of people and organizations, such as corporate businesses, freelancers, organizations, and entrepreneurs. Our goal is to support the development of concepts and abilities into successful company ventures that are built on the foundation of creativity and innovative partnership solutions.
                                 </p>
+                               
                                 <button className="uppercase h-[48px] w-[130px] gap-[12px] border-[1px] rounded-[8px] bt-padding font-semibold text-[16px] leading-[24px] text-[#344054]">Let's talk</button>
                             </div>
                             <img src={hand} alt="hand" height={hand.height} width={hand.width} />
