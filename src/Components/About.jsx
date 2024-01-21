@@ -27,7 +27,7 @@ function About () {
                                 We offer creative solutions to a broad spectrum of people and organizations, such as corporate businesses, freelancers, organizations, and entrepreneurs. Our goal is to support the development of concepts and abilities into successful company ventures that are built on the foundation of creativity and innovative partnership solutions.
                                 </p>
                                
-                                <button className="uppercase h-[48px] w-[130px] gap-[12px] border-[1px] rounded-[8px] bt-padding font-semibold text-[16px] leading-[24px] text-[#344054]">Let's talk</button>
+                           <button className="uppercase h-[48px] w-[130px] gap-[12px] border-[1px] rounded-[8px] bt-padding font-semibold text-[15px] leading-[24px] text-[#344054]">Let's talk</button>
                             </div>
                             <img src={hand} alt="hand" height={hand.height} width={hand.width} />
                         </div>

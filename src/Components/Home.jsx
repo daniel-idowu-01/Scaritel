@@ -76,8 +76,6 @@ function Home() {
                <img src={HeaderImg} alt="" className="w-[95%] md:w-full mx-auto mt-10 md:mt-20" />
             </article>
           </section>
-
-          {/* sponsors */}
           <section
              className="relative grid grid-cols-2 md:grid-cols-6 gap-5 md:gap-0 place-items-center justify-between mt-10 md:mt-44 mb-20 bg-[#1D2939] text-white p-7"
           >
@@ -106,8 +104,6 @@ function Home() {
                   <p className="font-bold text-xl">Nietzsche</p>
                </div>
           </section>
-
-          {/* technology solutions */}
           <section className="flex flex-col md:flex-row gap-10 justify-between mx-7 mb-10">
              <article className="relative md:top-10 md:w-1/2 flex flex-col items-center gap-10 md:p-10 h-full">
                 <p className="text-2xl font-semibold">Using improved technology solutions, we help transform brands</p>
@@ -128,8 +124,6 @@ function Home() {
           </section>
 
           <hr className="hidden md:block h-2 mx-20" />
-
-          {/* start-to-finish development */}
           <section className="p-5 md:p-20">
              <div className="text-center md:w-1/2 mx-auto">
                 <p className="md:w-[80%] mx-auto text-2xl font-semibold">One scalable team for start-to-finish development</p>
@@ -151,7 +145,6 @@ function Home() {
 
           <hr className="hidden md:block h-0.5 bg-gray-400" />
 
-          {/* real stories */}
           <section
              className="flex flex-col md:flex-row gap-10 items-center justify-between mx-7 my-10 md:p-10"
           >
@@ -190,7 +183,6 @@ function Home() {
              </article>
           </section>
 
-          {/* be the first to know */}
           <section className="flex justify-center items-baseline text-center mb-10">
              <article className="flex flex-col gap-5 bg-[#F9FAFB] w-[90%] md:w-[80%] p-10">
                 <p className="text-2xl font-bold">Be the first to know</p>
@@ -217,8 +209,6 @@ function Home() {
                 </div>
              </article>
           </section>
-
-          {/* footer component */}
           <Footer />
        </div>
     )

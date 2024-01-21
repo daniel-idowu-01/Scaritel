@@ -5,7 +5,8 @@ import content2 from "../assests/png/Content1.png";
 import content3 from "../assests/png/Content3.png";
 import check from "../assests/png/check.png";
 import SingleQuestion from "./SingleQuestion";
-
+import Info from "./Info";
+import Footer from "./Footer";
 
 
 const design1 = [
@@ -73,7 +74,7 @@ function Services () {
                   <div className="text-white text-4xl font-bold font-['Inter'] leading-[44px]">OUR SERVICES</div>
                 </div>
             </div>
-            <section className="h-[3342px] ">
+            <section className="h-[3000px] ">
                 <div className="h-[1856px] services-padding gap-[64px]">
                     <div className="h-[512px] gap-[96px] flex items-center justify-center">
                         <div className="w-[600px] h-[408px] gap-[32px]">
@@ -145,21 +146,25 @@ function Services () {
                         <img src={content3} alt="content1" height={content3.height} width={content3.width}/>
                     </div>
                 </div>
-                <div className="h-[1486px] gap-[64px] bg-[#FCFCFD] freq-padding flex flex-col text-center">
-                    <div className="h-[60px] abt-padding gap-[32px]">
-                        <p className="gap-[48px] font-bold text-[48px] leading-[60px] tracking-wide font-['Inter']">Frequently asked questions</p>
-                    </div>
-                    <div className=" h-[864px] px-8 flex-col justify-start items-center gap-16 inline-flex">
-                        <div className="h-[864px] flex-col justify-start items-start gap-8 flex">
-                            <div className="self-stretch h-[84px] flex-col justify-start items-center flex">
-                                    {questions.map((question, index) => {
-                                        return <SingleQuestion key={index} {...question}/>
-                                    })}
-                            </div>
+                <div className="gap-[64px] bg-[#FCFCFD] freq-padding flex flex-col text-center">
+                    <div className="mx-auto px-5">
+                        <div className="flex flex-col justify-center items-center">
+                            <p className="mt-3 text-[48px] tracking-wider leading-[60px] text-center w-[768px] font-bold">
+                            Frequenty asked questions
+                             </p>
+                        </div>
+                        <div className="w-[1280px] mt-9 grid max-w-xl divide-y divide-neutral-200">
+                            {questions.map((question, index) => {
+                                return <SingleQuestion key={index} {...question}/>
+                            })}
                         </div>
                     </div>
                 </div>
+                <article className="h-[290px] w-[1280px] abt-padding gap-[32px] mx-auto mt-9">
+                        <Info />
+                </article>
             </section>
+            <Footer />
         </section>
     )
 }

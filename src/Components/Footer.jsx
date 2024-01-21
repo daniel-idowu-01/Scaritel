@@ -13,20 +13,15 @@ const Footer = () => {
     <div className='bg-[#1F3AE3] w-full text-white pt-20 pb-5 md:px-20'>
       <section
         className='flex flex-col md:flex-row justify-center items-center md:items-start md:justify-around gap-14 md:gap-0 mb-10 text-center md:text-left'>
-        {/* first column */}
         <div>
           <img src={Logo} alt="" />
         </div>
-
-        {/* second column */}
         <div className='flex flex-col gap-5'>
           <p className='font-bold'>Our Company</p>
           <Link to='/about'>About Us</Link>
           <Link to='/services'>Our Services</Link>
           <Link to='/contact'>Let's Talk</Link>
         </div>
-
-        {/* third column */}
         <div className='flex flex-col gap-5'>
           <p className='font-bold'>Contact Us</p>
           <div className='md:flex md:justify-between'>
@@ -39,8 +34,6 @@ const Footer = () => {
           <p>info@scaritel.com</p>
           <p>Lagos, Nigeria</p>
         </div>
-
-        {/* fourth column */}
         <div className='flex flex-col gap-5'>
           <p className='font-bold'>Follow Us</p>
           <article className='flex items-center gap-1'>
