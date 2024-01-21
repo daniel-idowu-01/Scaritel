@@ -1,6 +1,9 @@
 import React from "react";
 import Footer from "./Footer";
-
+import ContactInfo from "./ContactInfo";
+import ChatIcon from '../assests/png/message-chat-circle.svg'
+import PinIcon from '../assests/png/marker-pin-02.svg'
+import Phone from '../assests/png/phone.svg'
 
 function Contact() {
     const image_source = 'https://s3-alpha-sig.figma.com/img/5085/6092/72bc333fd2cf140e3924551db44a310d?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L1L1El0LyYWpNhFLEv3fb2fsbyhn4KinBL~rDAFWpRa~IPBhVIu5uK-8AigRKywHVhPOz-Ajfagpfu1NE6uT8GdPrbVtEUrRuAEusCWAmDmEAwkPlQfbClZgebvgBfAcWOyAB-TG8K~RZmm606ArOWVvReDV~XUVypiHISwIp5kzZH-Cj46MsWkGXUTzGIdCL6bi8oK4LP1xdIssyV9qG7urSzC0bcoO5P2iQJ4SM~Gd1ZqsHPCen5ksiHC3467pABRTBltVw5Z7U-P9yzHZliaoSLwFE1vDcMuxJTZOmEsyZ4WJDsVGWXxgXNUF3b8RV~jLdIUNCUhHZpS4NQqn9A__'
@@ -116,8 +119,19 @@ function Contact() {
 
             
             {/* contact info */}
-            <section>
-                
+            <section className="p-10 md:p-20">
+                <div className="text-center flex flex-col gap-2">
+                    <p className="text-xs text-[#1F3AE3]">Contact Us</p>
+                    <p className="font-semibold text-2xl">Let's design and build a project together</p>
+                </div>
+
+                <div className="flex justify-between mt-5">
+                    <ContactInfo icon={ChatIcon} title='Chat to support' text='We’re here to help.' address='support@untitledui.com' />
+
+                    <ContactInfo icon={PinIcon} title='Visit Us' text='Visit our office HQ.' address='100 Smith Street Collingwood VIC 3066 AU' />
+
+                    <ContactInfo icon={Phone} title='Call Us' text='Mon-Fri from 8am to 5pm.' address='+1 (555) 000-0000' />
+                </div>
             </section>
 
             <Footer />
