@@ -125,7 +125,7 @@ function Contact() {
                     <p className="font-semibold text-2xl">Let's design and build a project together</p>
                 </div>
 
-                <div className="flex justify-between mt-5">
+                <div className="flex flex-col md:flex-row justify-between gap-5 mt-5">
                     <ContactInfo icon={ChatIcon} title='Chat to support' text='We’re here to help.' address='support@untitledui.com' />
 
                     <ContactInfo icon={PinIcon} title='Visit Us' text='Visit our office HQ.' address='100 Smith Street Collingwood VIC 3066 AU' />
