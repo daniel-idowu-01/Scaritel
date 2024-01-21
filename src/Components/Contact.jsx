@@ -71,8 +71,44 @@ function Contact() {
 
                         {/* fifth row in form */}
                         <article>
-                            
+                            <label htmlFor="services" className="block">Services</label>
+                            <section className="grid grid-cols-2 gap-2 mt-2">
+                                <div className="flex gap-3">
+                                    <input type="checkbox" name="website_design" id="" />
+                                    <label htmlFor="website_design" className="block">Website Design</label>
+                                </div>
+
+                                <div className="flex gap-3">
+                                    <input type="checkbox" name="digital_marketing" id="" />
+                                    <label htmlFor="digital_marketing" className="block">Digital Marketing</label>
+                                </div>
+
+                                <div className="flex gap-3">
+                                    <input type="checkbox" name="ux_design" id="" />
+                                    <label htmlFor="ux_design" className="block">UX Design</label>
+                                </div>
+
+                                <div className="flex gap-3">
+                                    <input type="checkbox" name="mobile_app" id="" />
+                                    <label htmlFor="mobile_app" className="block">Mobile App Development</label>
+                                </div>
+
+                                <div className="flex gap-3">
+                                    <input type="checkbox" name="user_research" id="" />
+                                    <label htmlFor="user_research" className="block">User Research</label>
+                                </div>
+
+                                <div className="flex gap-3">
+                                    <input type="checkbox" name="other" id="" />
+                                    <label htmlFor="other" className="block">Other</label>
+                                </div>
+                            </section>
                         </article>
+
+                        {/* submit button */}
+                        <button className="w-full bg-[#1F3AE3] rounded-md py-2 text-white">
+                            Submit
+                        </button>
                         
                     </form>
                 </article>
