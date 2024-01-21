@@ -112,8 +112,8 @@ function Contact() {
 
             <section className="p-10 md:p-20">
                 <div className="text-center flex flex-col gap-2">
-                    <p className="text-xs text-[#1F3AE3]">Contact Us</p>
-                    <p className="font-semibold text-2xl">Let's design and build a project together</p>
+                    <p className="text-[16px] font-semibold leading-[24px] font-['Inter'] text-[#1F3AE3]">Contact Us</p>
+                    <p className="font-semibold text-[36px] text-[#101828] font-semibold leading-[44px] text-center">Let's design and build a project together</p>
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-between gap-5 mt-5">
